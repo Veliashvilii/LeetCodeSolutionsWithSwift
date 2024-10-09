@@ -206,7 +206,7 @@ Okay, first I think we should understand how RegEx works in the code. After that
 3. **Memory Allocation**:
     - Creating new strings during the regex operation (filtered string) adds to memory allocation overhead, which can slow down performance for large strings.
 
-Okay, I think everything is now clear. **The main
+Okay, I think everything is now clear.
 
  reason for the performance difference is due to overhead in regex processing and extra passes through the input.** If the input is large, regex can be significantly slower.
 
