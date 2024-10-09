@@ -8,7 +8,10 @@ This documentation outlines the solutions for the Valid Palindrome problem from 
 A phrase is considered a palindrome if it reads the same forwards and backwards after filtering out non-alphanumeric characters and converting all uppercase letters to lowercase. The task is to determine whether a given string satisfies this condition.
 
 ## Topics
-Strings
+- Strings
+- Filter Method
+- Pointers
+- Regular Expression(RegEx)
 
 ## Solutions
 
