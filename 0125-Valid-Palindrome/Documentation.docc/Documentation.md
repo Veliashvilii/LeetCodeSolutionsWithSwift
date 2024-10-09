@@ -208,7 +208,22 @@ Okay, first I think we should understand how RegEx works in the code. After that
 
 Okay, I think everything is now clear.
 
- reason for the performance difference is due to overhead in regex processing and extra passes through the input.** If the input is large, regex can be significantly slower.
+**The main reason for the performance difference is due to overhead in regex processing and extra passes through the input.** If the input is large, regex can be significantly slower.
+
+## Conclusion
+
+The solutions presented in this document tackle the Valid Palindrome problem using different approaches. A comparison among the three methods reveals that each has its own advantages and disadvantages.
+
+1. **Filter and Reverse Method** stands out for its simplicity and ease of understanding. However, it may incur additional memory usage and performance issues with larger datasets.
+
+2. **Two-Pointer Technique** offers better memory efficiency and speed, making it the preferred approach when dealing with large input sets. However, it may be slightly more complex in terms of readability.
+
+3. **Regex Solution** provides concise and readable code but may suffer from performance issues and higher memory usage.
+
+Developers are advised to remember that not every algorithm provides a perfect solution for every problem. Utilizing sandbox environments to test various algorithms during the coding process is invaluable for identifying the most suitable approach. This way, you can understand which method works best for each scenario and evaluate its performance.
+
+In summary, embracing diversity and experimentation in software development processes is essential for producing more effective and efficient solutions.
+
 
 ## Contact
 
