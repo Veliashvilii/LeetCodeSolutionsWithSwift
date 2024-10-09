@@ -104,11 +104,6 @@ class Solution {
         return char.isNumber || (char >= "a" && char <= "z") || (char >= "A" && char <= "Z")
     }
 }
-
-let solution = Solution()
-let answer = solution.isPalindrome("A man, a plan, a canal: Panama")
-
-print("Question's answer is \(answer)")
 ```
 
 #### Approach
@@ -149,11 +144,6 @@ class Solution {
         return filtered == String(filtered.reversed())
     }
 }
-
-let solution = Solution()
-let answer = solution.isPalindrome("A man, a plan, a canal: Panama")
-
-print("Question's answer is \(answer)")
 ```
 
 #### Approach
