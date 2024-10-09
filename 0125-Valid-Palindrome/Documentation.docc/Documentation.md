@@ -195,7 +195,7 @@ Okay, first I think we should understand how RegEx works in the code. After that
 - **Complexity**: More complex regex patterns can lead to increased time and memory overhead as the engine has to evaluate more possibilities.
 - **Garbage Collection**: Once the regex execution is complete, memory used for matches or temporary objects is usually released, but there might be a slight delay in garbage collection depending on the language and environment.
 
-#### Why Does RegEx Have Bad Performance?
+#### Why Does RegEx Solution Have Bad Performance?
 
 1. **Regex Overhead**:
     - Regex engines often involve additional overhead due to the complexity of parsing and matching patterns, which can add latency, especially for larger input strings.
