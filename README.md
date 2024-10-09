@@ -8,7 +8,6 @@ This repository contains various solutions to LeetCode problems. Each problem in
 - [Guide Overview](#guide-overview)
 - [Problems](#problems)
     - [Easy Problems](#easy-problems)
-      - [0125 - Valid Palindrome](#0125---valid-palindrome)
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [Contact](#contact)
