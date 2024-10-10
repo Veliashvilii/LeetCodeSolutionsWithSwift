@@ -1,4 +1,4 @@
-"class Solution {
+class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     var numsWithIndex = nums.enumerated().map { ($0.element, $0.offset) }
     numsWithIndex.sort { $0.0 < $1.0 }
@@ -22,5 +22,3 @@
     return result.isEmpty ? [-1, -1] : result
     }
 }
-
-"
