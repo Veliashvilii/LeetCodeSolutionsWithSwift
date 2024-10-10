@@ -19,9 +19,9 @@ The main purpose of this repository is to compare different solutions for LeetCo
 ## Problems
 
 ### Easy Problems
-
-#### [0125 - Valid Palindrome](./0125-Valid-Palindrome)
 #### [0001 - Two Sum](./0001-Two-Sum)
+#### [0125 - Valid Palindrome](./0125-Valid-Palindrome)
+
 
 ## Usage
 
